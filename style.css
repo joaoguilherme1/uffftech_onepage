@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header {
+    box-sizing: border-box;
+}
+
+/* css reset */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home {
+    background-image: url('img/gifcarro.gif');
+    background-repeat:repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#home h1 {
+    color: rgb(211, 145, 255);
+    font-size: 100px;
+}
+
+#sobre {
+    background-image: url(img/outrocarro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#sobre h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#sobre button {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 48.5%;
+}
+
+#produto_1 {
+    background-image: url(img/carrodaora.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#produto_1 button {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 45.5%;
+}
+
+#produto_2 {
+    background-image: url(img/carro123.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#produto_2 button {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 45.5%;
+}
+
+#contato {
+    background-color: #2ecc71;
+}
+
+#contato button {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 46.5%;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
